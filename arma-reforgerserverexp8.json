@@ -1,14 +1,14 @@
 {
-    "bindAddress": "{{bindAddress}}",
+    "bindAddress": "{{GameBindIP}}",
     "bindPort": {{bindPort}},
     "publicAddress": "{{publicAddress}}",
     "publicPort": {{publicPort}},
     "a2s": {
-        "address": "{{a2s.address}}",
+        "address": "{{A2SBindIP}}",
         "port": {{a2s.port}}
     },
     "rcon": {
-        "address": "{{rcon.address}}",
+        "address": "{{RCONBindIP}}",
         "port": {{rcon.port}},
         "password": "{{rcon.password}}",
         "maxClients": {{rcon.maxClients}},

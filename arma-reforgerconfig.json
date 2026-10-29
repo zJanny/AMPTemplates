@@ -84,6 +84,48 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Game Bind IP",
+        "Category": "Arma Reforger:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the local IP address the game port binds to (bindAddress). Use 0.0.0.0 to listen on all interfaces",
+        "Keywords": "game,bind,ip,address,bindAddress",
+        "FieldName": "GameBindIP",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "GameBindIP",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0.0.0.0",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Steam Query (A2S) Bind IP",
+        "Category": "Arma Reforger:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the local IP address the Steam query (A2S) port binds to (a2s.address and -a2sIpAddress). Use 0.0.0.0 to listen on all interfaces",
+        "Keywords": "a2s,steam,query,bind,ip,address",
+        "FieldName": "A2SBindIP",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "A2SBindIP",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0.0.0.0",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "RCON Bind IP",
+        "Category": "Arma Reforger:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the local IP address the RCON port binds to (rcon.address). Use 0.0.0.0 to listen on all interfaces",
+        "Keywords": "rcon,bind,ip,address",
+        "FieldName": "RCONBindIP",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "RCONBindIP",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "0.0.0.0",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "RCON Permission",
         "Category": "Arma Reforger:stadia_controller",
         "Subcategory": "Server:dns:1",
